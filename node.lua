@@ -28,7 +28,7 @@ local overlays = {
 
 local LAYOUT_CONFIG = {
     seven20 = {
-        top = 66,
+        top = 10,
         bottom = 37,
         clock_width = 300 * WIDTH/1920,
 
@@ -37,7 +37,7 @@ local LAYOUT_CONFIG = {
         h2_font_size = 30,
     },
     fullhd = {
-        top = 100,
+        top = 10,
         bottom = 50,
         clock_width = 300 * WIDTH/1920,
 
@@ -46,7 +46,7 @@ local LAYOUT_CONFIG = {
         h2_font_size = 50,
     },
     fourk = {
-        top = 66,
+        top = 10,
         bottom = 100,
         clock_width = 300 * WIDTH/1920,
 
