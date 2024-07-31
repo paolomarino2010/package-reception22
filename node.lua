@@ -867,14 +867,14 @@ local function playlist()
 
     local function page_text_left(page)
         local duration = get_duration(page)
-        add{
+        --[[ add{
             offset = offset,
             duration = duration,
             fn = Image{
                 fade_time = 0,
                 asset_name = node_config.header.asset_name,
             },
-            coord = tile_top,
+            coord = tile_top, ]]
         }
         add{
             offset = offset,
@@ -897,7 +897,7 @@ local function playlist()
             fn = Markup{
                 text = page.config.text or "",
                 width = WIDTH/2,
-                height = HEIGHT-200,
+                height = HEIGHT,
                 color = page.config.foreground or "#ffffff",
             },
             coord = tile_left,
@@ -908,7 +908,7 @@ local function playlist()
 
     local function page_text_right(page)
         local duration = get_duration(page)
-        add{
+       --[[ add{
             offset = offset,
             duration = duration,
             fn = Image{
@@ -916,7 +916,7 @@ local function playlist()
                 asset_name = node_config.header.asset_name,
             },
             coord = tile_top,
-        }
+        }  ]]
         add{
             offset = offset,
             duration = duration,
@@ -938,7 +938,7 @@ local function playlist()
             fn = Markup{
                 text = page.config.text or "",
                 width = WIDTH/2,
-                height = HEIGHT-200,
+                height = HEIGHT,
                 color = page.config.foreground or "#ffffff",
             },
             coord = tile_right,
