@@ -46,7 +46,7 @@ local LAYOUT_CONFIG = {
         h2_font_size = 50,
     },
     fourk = {
-        top = 200,
+        top = 66,
         bottom = 100,
         clock_width = 300 * WIDTH/1920,
 
