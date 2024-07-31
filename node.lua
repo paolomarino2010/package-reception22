@@ -874,8 +874,8 @@ local function playlist()
                 fade_time = 0,
                 asset_name = node_config.header.asset_name,
             },
-            coord = tile_top, ]]
-        }
+            coord = tile_top, 
+        } ]]
         add{
             offset = offset,
             duration = duration,
